@@ -30,7 +30,6 @@ def Cost_Function(X,Y, theta,m):
 #для этого  идем по всей модели считаем ошибку и берем производную.
 #заменяем текущий theta на новый
 def Gdadient_descent(X, Y, m, alpha, theta):
-    #old_theta = theta[i]
     new_thetas = []
     for i in range(len(theta)):
         old_theta = theta[i]
